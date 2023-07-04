@@ -183,5 +183,5 @@
 
           [worker]
           {{ worker_ec2_result.instances[0].public_ip }}
-        dest: /root/Project902/demo/ansible_inventory.txt
+        dest: /root/902project/demo/ansible_inventory.txt
 
