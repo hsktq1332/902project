@@ -23,8 +23,8 @@
         family: Ddack-family
         containers:
           - name: Ddack-app
-            cpu: 256
-            memory: 500
+            cpu: 1
+            memory: 256
             image: seokkyung/web-nginx
         region: "{{ ecs_ec2_region }}"
         state: present
